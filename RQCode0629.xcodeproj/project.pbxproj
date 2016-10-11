@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D506D801F6D8C61E8E220120 /* libPods-RQCode0629.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E506982120B60D6742148634 /* libPods-RQCode0629.a */; };
+		EA051D711D236F1C00E465EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA051D701D236F1C00E465EC /* main.m */; };
+		EA051D741D236F1C00E465EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA051D731D236F1C00E465EC /* AppDelegate.m */; };
+		EA051D7C1D236F1C00E465EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA051D7B1D236F1C00E465EC /* Assets.xcassets */; };
+		EA051D7F1D236F1C00E465EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA051D7D1D236F1C00E465EC /* LaunchScreen.storyboard */; };
+		EA051DA71D236F8900E465EC /* activity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA051D871D236F8900E465EC /* activity@2x.png */; };
+		EA051DA81D236F8900E465EC /* activity@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA051D881D236F8900E465EC /* activity@3x.png */; };
+		EA051DA91D236F8900E465EC /* add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA051D891D236F8900E465EC /* add@2x.png */; };
+		EA051DAA1D236F8900E465EC /* add@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA051D8A1D236F8900E465EC /* add@3x.png */; };
+		EA051DAB1D236F8900E465EC /* back sweep@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA051D8B1D236F8900E465EC /* back sweep@2x.png */; };
+		EA051DAC1D236F8900E465EC /* back sweep@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA051D8C1D236F8900E465EC /* back sweep@3x.png */; };
+		EA051DAD1D236F8900E465EC /* close QR@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA051D8D1D236F8900E465EC /* close QR@2x.png */; };
+		EA051DAE1D236F8900E465EC /* close QR@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA051D8E1D236F8900E465EC /* close QR@3x.png */; };
+		EA051DAF1D236F8900E465EC /* Jump nearby@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA051D8F1D236F8900E465EC /* Jump nearby@2x.png */; };
+		EA051DB01D236F8900E465EC /* Jump nearby@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA051D901D236F8900E465EC /* Jump nearby@3x.png */; };
+		EA051DB11D236F8900E465EC /* light1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA051D911D236F8900E465EC /* light1@2x.png */; };
+		EA051DB21D236F8900E465EC /* light1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA051D921D236F8900E465EC /* light1@3x.png */; };
+		EA051DB31D236F8900E465EC /* light2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA051D931D236F8900E465EC /* light2@2x.png */; };
+		EA051DB41D236F8900E465EC /* light2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA051D941D236F8900E465EC /* light2@3x.png */; };
+		EA051DB51D236F8900E465EC /* paper@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA051D951D236F8900E465EC /* paper@2x.png */; };
+		EA051DB61D236F8900E465EC /* paper@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA051D961D236F8900E465EC /* paper@3x.png */; };
+		EA051DB71D236F8900E465EC /* phone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA051D971D236F8900E465EC /* phone@2x.png */; };
+		EA051DB81D236F8900E465EC /* phone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA051D981D236F8900E465EC /* phone@3x.png */; };
+		EA051DBB1D236F8900E465EC /* QR head@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA051D9B1D236F8900E465EC /* QR head@2x.png */; };
+		EA051DBC1D236F8900E465EC /* QR head@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA051D9C1D236F8900E465EC /* QR head@3x.png */; };
+		EA051DBD1D236F8900E465EC /* QR sweep page@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA051D9D1D236F8900E465EC /* QR sweep page@2x.png */; };
+		EA051DBE1D236F8900E465EC /* QR sweep page@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA051D9E1D236F8900E465EC /* QR sweep page@3x.png */; };
+		EA051DC11D236F8900E465EC /* shop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA051DA11D236F8900E465EC /* shop@2x.png */; };
+		EA051DC21D236F8900E465EC /* shop@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA051DA21D236F8900E465EC /* shop@3x.png */; };
+		EA051DC31D236F8900E465EC /* sweep1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA051DA31D236F8900E465EC /* sweep1@2x.png */; };
+		EA051DC41D236F8900E465EC /* sweep1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA051DA41D236F8900E465EC /* sweep1@3x.png */; };
+		EA051DC51D236F8900E465EC /* sweep2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA051DA51D236F8900E465EC /* sweep2@2x.png */; };
+		EA051DC61D236F8900E465EC /* sweep2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA051DA61D236F8900E465EC /* sweep2@3x.png */; };
+		EA051DC91D23716500E465EC /* FBNearByShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA051DC81D23716500E465EC /* FBNearByShopViewController.m */; };
+		EA051DCC1D23718C00E465EC /* FBMyQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA051DCB1D23718C00E465EC /* FBMyQRCodeViewController.m */; };
+		EA051DCF1D23719D00E465EC /* FBScanQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA051DCE1D23719D00E465EC /* FBScanQRCodeViewController.m */; };
+		EA051DD11D2372F900E465EC /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA051DD01D2372F900E465EC /* Storyboard.storyboard */; };
+		EA051DD41D23794F00E465EC /* FBLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA051DD31D23794F00E465EC /* FBLayoutManager.m */; };
+		EA051DD71D23992000E465EC /* FBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA051DD61D23992000E465EC /* FBViewController.m */; };
+		EA4693251D23B9E400712FAE /* FBVisualBackgroudBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4693241D23B9E400712FAE /* FBVisualBackgroudBaseViewController.m */; };
+		EA4693281D23BF0000712FAE /* FBParchmentBackgroudView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4693271D23BF0000712FAE /* FBParchmentBackgroudView.m */; };
+		EA46932E1D23C7CD00712FAE /* NSBundle+ZXAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EA46932A1D23C7CD00712FAE /* NSBundle+ZXAdd.m */; };
+		EA46932F1D23C7CD00712FAE /* NSString+ZXAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EA46932C1D23C7CD00712FAE /* NSString+ZXAdd.m */; };
+		EA4693321D23D2C400712FAE /* FBMyQRCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4693311D23D2C400712FAE /* FBMyQRCodeView.m */; };
+		EA5E6A0C1D2636680020B73D /* edge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5E6A0A1D2636680020B73D /* edge@2x.png */; };
+		EA5E6A0D1D2636680020B73D /* edge@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5E6A0B1D2636680020B73D /* edge@3x.png */; };
+		EA5E6A101D2636700020B73D /* spot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5E6A0E1D2636700020B73D /* spot@2x.png */; };
+		EA5E6A111D2636700020B73D /* spot@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5E6A0F1D2636700020B73D /* spot@3x.png */; };
+		EA5E6A131D26414C0020B73D /* dot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5E6A121D26414C0020B73D /* dot@2x.png */; };
+		EA5E6A151D2641530020B73D /* dot@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5E6A141D2641530020B73D /* dot@3x.png */; };
+		EA5E6A181D2649D30020B73D /* FBLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5E6A171D2649D30020B73D /* FBLoginButton.m */; };
+		EAC5CA311D250C4D00B4176F /* FBNearByShopView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC5CA301D250C4D00B4176F /* FBNearByShopView.m */; };
+		EAC5CA341D2510DD00B4176F /* paperBoder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC5CA321D2510DD00B4176F /* paperBoder@2x.png */; };
+		EAC5CA351D2510DD00B4176F /* paperBoder@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC5CA331D2510DD00B4176F /* paperBoder@3x.png */; };
+		EAC5CA381D25144300B4176F /* FBNearByShopTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC5CA371D25144300B4176F /* FBNearByShopTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9AB1356F7489C4A0F93EAEA0 /* Pods-RQCode0629.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RQCode0629.release.xcconfig"; path = "Pods/Target Support Files/Pods-RQCode0629/Pods-RQCode0629.release.xcconfig"; sourceTree = "<group>"; };
+		D5CD7948073DCE9E1A46BE10 /* Pods-RQCode0629.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RQCode0629.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RQCode0629/Pods-RQCode0629.debug.xcconfig"; sourceTree = "<group>"; };
+		E506982120B60D6742148634 /* libPods-RQCode0629.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RQCode0629.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA051D6C1D236F1C00E465EC /* RQCode0629.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RQCode0629.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA051D701D236F1C00E465EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA051D721D236F1C00E465EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA051D731D236F1C00E465EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA051D7B1D236F1C00E465EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA051D7E1D236F1C00E465EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA051D801D236F1C00E465EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA051D871D236F8900E465EC /* activity@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "activity@2x.png"; sourceTree = "<group>"; };
+		EA051D881D236F8900E465EC /* activity@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "activity@3x.png"; sourceTree = "<group>"; };
+		EA051D891D236F8900E465EC /* add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add@2x.png"; sourceTree = "<group>"; };
+		EA051D8A1D236F8900E465EC /* add@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add@3x.png"; sourceTree = "<group>"; };
+		EA051D8B1D236F8900E465EC /* back sweep@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back sweep@2x.png"; sourceTree = "<group>"; };
+		EA051D8C1D236F8900E465EC /* back sweep@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back sweep@3x.png"; sourceTree = "<group>"; };
+		EA051D8D1D236F8900E465EC /* close QR@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close QR@2x.png"; sourceTree = "<group>"; };
+		EA051D8E1D236F8900E465EC /* close QR@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close QR@3x.png"; sourceTree = "<group>"; };
+		EA051D8F1D236F8900E465EC /* Jump nearby@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jump nearby@2x.png"; sourceTree = "<group>"; };
+		EA051D901D236F8900E465EC /* Jump nearby@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jump nearby@3x.png"; sourceTree = "<group>"; };
+		EA051D911D236F8900E465EC /* light1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "light1@2x.png"; sourceTree = "<group>"; };
+		EA051D921D236F8900E465EC /* light1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "light1@3x.png"; sourceTree = "<group>"; };
+		EA051D931D236F8900E465EC /* light2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "light2@2x.png"; sourceTree = "<group>"; };
+		EA051D941D236F8900E465EC /* light2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "light2@3x.png"; sourceTree = "<group>"; };
+		EA051D951D236F8900E465EC /* paper@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paper@2x.png"; sourceTree = "<group>"; };
+		EA051D961D236F8900E465EC /* paper@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paper@3x.png"; sourceTree = "<group>"; };
+		EA051D971D236F8900E465EC /* phone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone@2x.png"; sourceTree = "<group>"; };
+		EA051D981D236F8900E465EC /* phone@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone@3x.png"; sourceTree = "<group>"; };
+		EA051D9B1D236F8900E465EC /* QR head@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QR head@2x.png"; sourceTree = "<group>"; };
+		EA051D9C1D236F8900E465EC /* QR head@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QR head@3x.png"; sourceTree = "<group>"; };
+		EA051D9D1D236F8900E465EC /* QR sweep page@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QR sweep page@2x.png"; sourceTree = "<group>"; };
+		EA051D9E1D236F8900E465EC /* QR sweep page@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QR sweep page@3x.png"; sourceTree = "<group>"; };
+		EA051DA11D236F8900E465EC /* shop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shop@2x.png"; sourceTree = "<group>"; };
+		EA051DA21D236F8900E465EC /* shop@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shop@3x.png"; sourceTree = "<group>"; };
+		EA051DA31D236F8900E465EC /* sweep1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sweep1@2x.png"; sourceTree = "<group>"; };
+		EA051DA41D236F8900E465EC /* sweep1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sweep1@3x.png"; sourceTree = "<group>"; };
+		EA051DA51D236F8900E465EC /* sweep2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sweep2@2x.png"; sourceTree = "<group>"; };
+		EA051DA61D236F8900E465EC /* sweep2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sweep2@3x.png"; sourceTree = "<group>"; };
+		EA051DC71D23716500E465EC /* FBNearByShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBNearByShopViewController.h; sourceTree = "<group>"; };
+		EA051DC81D23716500E465EC /* FBNearByShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBNearByShopViewController.m; sourceTree = "<group>"; };
+		EA051DCA1D23718C00E465EC /* FBMyQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBMyQRCodeViewController.h; sourceTree = "<group>"; };
+		EA051DCB1D23718C00E465EC /* FBMyQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBMyQRCodeViewController.m; sourceTree = "<group>"; };
+		EA051DCD1D23719D00E465EC /* FBScanQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBScanQRCodeViewController.h; sourceTree = "<group>"; };
+		EA051DCE1D23719D00E465EC /* FBScanQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBScanQRCodeViewController.m; sourceTree = "<group>"; };
+		EA051DD01D2372F900E465EC /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		EA051DD21D23794E00E465EC /* FBLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLayoutManager.h; sourceTree = "<group>"; };
+		EA051DD31D23794F00E465EC /* FBLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLayoutManager.m; sourceTree = "<group>"; };
+		EA051DD51D23992000E465EC /* FBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBViewController.h; sourceTree = "<group>"; };
+		EA051DD61D23992000E465EC /* FBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBViewController.m; sourceTree = "<group>"; };
+		EA4693231D23B9E400712FAE /* FBVisualBackgroudBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBVisualBackgroudBaseViewController.h; sourceTree = "<group>"; };
+		EA4693241D23B9E400712FAE /* FBVisualBackgroudBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBVisualBackgroudBaseViewController.m; sourceTree = "<group>"; };
+		EA4693261D23BF0000712FAE /* FBParchmentBackgroudView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBParchmentBackgroudView.h; sourceTree = "<group>"; };
+		EA4693271D23BF0000712FAE /* FBParchmentBackgroudView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBParchmentBackgroudView.m; sourceTree = "<group>"; };
+		EA4693291D23C7CD00712FAE /* NSBundle+ZXAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+ZXAdd.h"; sourceTree = "<group>"; };
+		EA46932A1D23C7CD00712FAE /* NSBundle+ZXAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+ZXAdd.m"; sourceTree = "<group>"; };
+		EA46932B1D23C7CD00712FAE /* NSString+ZXAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZXAdd.h"; sourceTree = "<group>"; };
+		EA46932C1D23C7CD00712FAE /* NSString+ZXAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZXAdd.m"; sourceTree = "<group>"; };
+		EA46932D1D23C7CD00712FAE /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		EA4693301D23D2C400712FAE /* FBMyQRCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBMyQRCodeView.h; sourceTree = "<group>"; };
+		EA4693311D23D2C400712FAE /* FBMyQRCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBMyQRCodeView.m; sourceTree = "<group>"; };
+		EA4693341D24EDF100712FAE /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		EA5E6A0A1D2636680020B73D /* edge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edge@2x.png"; sourceTree = "<group>"; };
+		EA5E6A0B1D2636680020B73D /* edge@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edge@3x.png"; sourceTree = "<group>"; };
+		EA5E6A0E1D2636700020B73D /* spot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spot@2x.png"; sourceTree = "<group>"; };
+		EA5E6A0F1D2636700020B73D /* spot@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spot@3x.png"; sourceTree = "<group>"; };
+		EA5E6A121D26414C0020B73D /* dot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dot@2x.png"; sourceTree = "<group>"; };
+		EA5E6A141D2641530020B73D /* dot@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dot@3x.png"; sourceTree = "<group>"; };
+		EA5E6A161D2649D30020B73D /* FBLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginButton.h; sourceTree = "<group>"; };
+		EA5E6A171D2649D30020B73D /* FBLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLoginButton.m; sourceTree = "<group>"; };
+		EAC5CA2F1D250C4D00B4176F /* FBNearByShopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBNearByShopView.h; sourceTree = "<group>"; };
+		EAC5CA301D250C4D00B4176F /* FBNearByShopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBNearByShopView.m; sourceTree = "<group>"; };
+		EAC5CA321D2510DD00B4176F /* paperBoder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paperBoder@2x.png"; sourceTree = "<group>"; };
+		EAC5CA331D2510DD00B4176F /* paperBoder@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paperBoder@3x.png"; sourceTree = "<group>"; };
+		EAC5CA361D25144300B4176F /* FBNearByShopTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBNearByShopTableViewCell.h; sourceTree = "<group>"; };
+		EAC5CA371D25144300B4176F /* FBNearByShopTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBNearByShopTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA051D691D236F1C00E465EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D506D801F6D8C61E8E220120 /* libPods-RQCode0629.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BD2468B9FB75C8F3E019EE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5CD7948073DCE9E1A46BE10 /* Pods-RQCode0629.debug.xcconfig */,
+				9AB1356F7489C4A0F93EAEA0 /* Pods-RQCode0629.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8ED4628E9C31866895C5F4BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E506982120B60D6742148634 /* libPods-RQCode0629.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA051D631D236F1C00E465EC = {
+			isa = PBXGroup;
+			children = (
+				EA051D6E1D236F1C00E465EC /* RQCode0629 */,
+				EA051D6D1D236F1C00E465EC /* Products */,
+				4BD2468B9FB75C8F3E019EE2 /* Pods */,
+				8ED4628E9C31866895C5F4BB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA051D6D1D236F1C00E465EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA051D6C1D236F1C00E465EC /* RQCode0629.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA051D6E1D236F1C00E465EC /* RQCode0629 */ = {
+			isa = PBXGroup;
+			children = (
+				EA051D721D236F1C00E465EC /* AppDelegate.h */,
+				EA051D731D236F1C00E465EC /* AppDelegate.m */,
+				EA4693231D23B9E400712FAE /* FBVisualBackgroudBaseViewController.h */,
+				EA4693241D23B9E400712FAE /* FBVisualBackgroudBaseViewController.m */,
+				EA4693261D23BF0000712FAE /* FBParchmentBackgroudView.h */,
+				EA4693271D23BF0000712FAE /* FBParchmentBackgroudView.m */,
+				EA051DC71D23716500E465EC /* FBNearByShopViewController.h */,
+				EA051DC81D23716500E465EC /* FBNearByShopViewController.m */,
+				EA051DCA1D23718C00E465EC /* FBMyQRCodeViewController.h */,
+				EA051DCB1D23718C00E465EC /* FBMyQRCodeViewController.m */,
+				EA051DCD1D23719D00E465EC /* FBScanQRCodeViewController.h */,
+				EA051DCE1D23719D00E465EC /* FBScanQRCodeViewController.m */,
+				EA5E6A161D2649D30020B73D /* FBLoginButton.h */,
+				EA5E6A171D2649D30020B73D /* FBLoginButton.m */,
+				EA051DD51D23992000E465EC /* FBViewController.h */,
+				EA051DD61D23992000E465EC /* FBViewController.m */,
+				EA4693301D23D2C400712FAE /* FBMyQRCodeView.h */,
+				EA4693311D23D2C400712FAE /* FBMyQRCodeView.m */,
+				EAC5CA2F1D250C4D00B4176F /* FBNearByShopView.h */,
+				EAC5CA301D250C4D00B4176F /* FBNearByShopView.m */,
+				EAC5CA361D25144300B4176F /* FBNearByShopTableViewCell.h */,
+				EAC5CA371D25144300B4176F /* FBNearByShopTableViewCell.m */,
+				EA4693291D23C7CD00712FAE /* NSBundle+ZXAdd.h */,
+				EA46932A1D23C7CD00712FAE /* NSBundle+ZXAdd.m */,
+				EA46932B1D23C7CD00712FAE /* NSString+ZXAdd.h */,
+				EA46932C1D23C7CD00712FAE /* NSString+ZXAdd.m */,
+				EA051DD21D23794E00E465EC /* FBLayoutManager.h */,
+				EA051DD31D23794F00E465EC /* FBLayoutManager.m */,
+				EA46932D1D23C7CD00712FAE /* PrefixHeader.pch */,
+				EA4693341D24EDF100712FAE /* Singleton.h */,
+				EA051D861D236F8900E465EC /* 二维码 */,
+				EA051D7B1D236F1C00E465EC /* Assets.xcassets */,
+				EA051D7D1D236F1C00E465EC /* LaunchScreen.storyboard */,
+				EA051DD01D2372F900E465EC /* Storyboard.storyboard */,
+				EA051D801D236F1C00E465EC /* Info.plist */,
+				EA051D6F1D236F1C00E465EC /* Supporting Files */,
+			);
+			path = RQCode0629;
+			sourceTree = "<group>";
+		};
+		EA051D6F1D236F1C00E465EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA051D701D236F1C00E465EC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA051D861D236F8900E465EC /* 二维码 */ = {
+			isa = PBXGroup;
+			children = (
+				EA051D871D236F8900E465EC /* activity@2x.png */,
+				EA051D881D236F8900E465EC /* activity@3x.png */,
+				EA5E6A121D26414C0020B73D /* dot@2x.png */,
+				EA5E6A141D2641530020B73D /* dot@3x.png */,
+				EA051D891D236F8900E465EC /* add@2x.png */,
+				EA051D8A1D236F8900E465EC /* add@3x.png */,
+				EA051D8B1D236F8900E465EC /* back sweep@2x.png */,
+				EA5E6A0A1D2636680020B73D /* edge@2x.png */,
+				EA5E6A0E1D2636700020B73D /* spot@2x.png */,
+				EA5E6A0F1D2636700020B73D /* spot@3x.png */,
+				EA5E6A0B1D2636680020B73D /* edge@3x.png */,
+				EA051D8C1D236F8900E465EC /* back sweep@3x.png */,
+				EA051D8D1D236F8900E465EC /* close QR@2x.png */,
+				EA051D8E1D236F8900E465EC /* close QR@3x.png */,
+				EA051D8F1D236F8900E465EC /* Jump nearby@2x.png */,
+				EA051D901D236F8900E465EC /* Jump nearby@3x.png */,
+				EA051D911D236F8900E465EC /* light1@2x.png */,
+				EA051D921D236F8900E465EC /* light1@3x.png */,
+				EA051D931D236F8900E465EC /* light2@2x.png */,
+				EA051D941D236F8900E465EC /* light2@3x.png */,
+				EA051D951D236F8900E465EC /* paper@2x.png */,
+				EA051D961D236F8900E465EC /* paper@3x.png */,
+				EA051D971D236F8900E465EC /* phone@2x.png */,
+				EA051D981D236F8900E465EC /* phone@3x.png */,
+				EAC5CA321D2510DD00B4176F /* paperBoder@2x.png */,
+				EAC5CA331D2510DD00B4176F /* paperBoder@3x.png */,
+				EA051D9B1D236F8900E465EC /* QR head@2x.png */,
+				EA051D9C1D236F8900E465EC /* QR head@3x.png */,
+				EA051D9D1D236F8900E465EC /* QR sweep page@2x.png */,
+				EA051D9E1D236F8900E465EC /* QR sweep page@3x.png */,
+				EA051DA11D236F8900E465EC /* shop@2x.png */,
+				EA051DA21D236F8900E465EC /* shop@3x.png */,
+				EA051DA31D236F8900E465EC /* sweep1@2x.png */,
+				EA051DA41D236F8900E465EC /* sweep1@3x.png */,
+				EA051DA51D236F8900E465EC /* sweep2@2x.png */,
+				EA051DA61D236F8900E465EC /* sweep2@3x.png */,
+			);
+			path = "二维码";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA051D6B1D236F1C00E465EC /* RQCode0629 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA051D831D236F1C00E465EC /* Build configuration list for PBXNativeTarget "RQCode0629" */;
+			buildPhases = (
+				29545F046928E7A153EE5CDD /* [CP] Check Pods Manifest.lock */,
+				EA051D681D236F1C00E465EC /* Sources */,
+				EA051D691D236F1C00E465EC /* Frameworks */,
+				EA051D6A1D236F1C00E465EC /* Resources */,
+				E0386BAB235C124BB92D0643 /* [CP] Embed Pods Frameworks */,
+				50485B8D4DA66E1EAE5BFD78 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RQCode0629;
+			productName = RQCode0629;
+			productReference = EA051D6C1D236F1C00E465EC /* RQCode0629.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA051D641D236F1C00E465EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FB;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "朱志先";
+				TargetAttributes = {
+					EA051D6B1D236F1C00E465EC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EA051D671D236F1C00E465EC /* Build configuration list for PBXProject "RQCode0629" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA051D631D236F1C00E465EC;
+			productRefGroup = EA051D6D1D236F1C00E465EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA051D6B1D236F1C00E465EC /* RQCode0629 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA051D6A1D236F1C00E465EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA051DC51D236F8900E465EC /* sweep2@2x.png in Resources */,
+				EA051DAC1D236F8900E465EC /* back sweep@3x.png in Resources */,
+				EA051DC61D236F8900E465EC /* sweep2@3x.png in Resources */,
+				EA051DB51D236F8900E465EC /* paper@2x.png in Resources */,
+				EA051DB41D236F8900E465EC /* light2@3x.png in Resources */,
+				EA5E6A111D2636700020B73D /* spot@3x.png in Resources */,
+				EA051DAD1D236F8900E465EC /* close QR@2x.png in Resources */,
+				EA051DA81D236F8900E465EC /* activity@3x.png in Resources */,
+				EA051DAA1D236F8900E465EC /* add@3x.png in Resources */,
+				EA051DB31D236F8900E465EC /* light2@2x.png in Resources */,
+				EA5E6A151D2641530020B73D /* dot@3x.png in Resources */,
+				EA5E6A131D26414C0020B73D /* dot@2x.png in Resources */,
+				EA051DB71D236F8900E465EC /* phone@2x.png in Resources */,
+				EAC5CA351D2510DD00B4176F /* paperBoder@3x.png in Resources */,
+				EA051DAF1D236F8900E465EC /* Jump nearby@2x.png in Resources */,
+				EA051DBC1D236F8900E465EC /* QR head@3x.png in Resources */,
+				EA051D7F1D236F1C00E465EC /* LaunchScreen.storyboard in Resources */,
+				EA051DAE1D236F8900E465EC /* close QR@3x.png in Resources */,
+				EA051DC41D236F8900E465EC /* sweep1@3x.png in Resources */,
+				EA051DAB1D236F8900E465EC /* back sweep@2x.png in Resources */,
+				EA051DD11D2372F900E465EC /* Storyboard.storyboard in Resources */,
+				EA5E6A101D2636700020B73D /* spot@2x.png in Resources */,
+				EA051DC11D236F8900E465EC /* shop@2x.png in Resources */,
+				EAC5CA341D2510DD00B4176F /* paperBoder@2x.png in Resources */,
+				EA051DA91D236F8900E465EC /* add@2x.png in Resources */,
+				EA051DBE1D236F8900E465EC /* QR sweep page@3x.png in Resources */,
+				EA051DB01D236F8900E465EC /* Jump nearby@3x.png in Resources */,
+				EA5E6A0D1D2636680020B73D /* edge@3x.png in Resources */,
+				EA051DBB1D236F8900E465EC /* QR head@2x.png in Resources */,
+				EA051DC21D236F8900E465EC /* shop@3x.png in Resources */,
+				EA051DB81D236F8900E465EC /* phone@3x.png in Resources */,
+				EA051DA71D236F8900E465EC /* activity@2x.png in Resources */,
+				EA051D7C1D236F1C00E465EC /* Assets.xcassets in Resources */,
+				EA051DBD1D236F8900E465EC /* QR sweep page@2x.png in Resources */,
+				EA051DB11D236F8900E465EC /* light1@2x.png in Resources */,
+				EA051DB21D236F8900E465EC /* light1@3x.png in Resources */,
+				EA5E6A0C1D2636680020B73D /* edge@2x.png in Resources */,
+				EA051DB61D236F8900E465EC /* paper@3x.png in Resources */,
+				EA051DC31D236F8900E465EC /* sweep1@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29545F046928E7A153EE5CDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		50485B8D4DA66E1EAE5BFD78 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RQCode0629/Pods-RQCode0629-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0386BAB235C124BB92D0643 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RQCode0629/Pods-RQCode0629-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA051D681D236F1C00E465EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA46932E1D23C7CD00712FAE /* NSBundle+ZXAdd.m in Sources */,
+				EA4693251D23B9E400712FAE /* FBVisualBackgroudBaseViewController.m in Sources */,
+				EA4693321D23D2C400712FAE /* FBMyQRCodeView.m in Sources */,
+				EA46932F1D23C7CD00712FAE /* NSString+ZXAdd.m in Sources */,
+				EA051DCC1D23718C00E465EC /* FBMyQRCodeViewController.m in Sources */,
+				EA051D741D236F1C00E465EC /* AppDelegate.m in Sources */,
+				EAC5CA381D25144300B4176F /* FBNearByShopTableViewCell.m in Sources */,
+				EA051D711D236F1C00E465EC /* main.m in Sources */,
+				EA5E6A181D2649D30020B73D /* FBLoginButton.m in Sources */,
+				EA051DCF1D23719D00E465EC /* FBScanQRCodeViewController.m in Sources */,
+				EA4693281D23BF0000712FAE /* FBParchmentBackgroudView.m in Sources */,
+				EA051DD71D23992000E465EC /* FBViewController.m in Sources */,
+				EAC5CA311D250C4D00B4176F /* FBNearByShopView.m in Sources */,
+				EA051DC91D23716500E465EC /* FBNearByShopViewController.m in Sources */,
+				EA051DD41D23794F00E465EC /* FBLayoutManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA051D7D1D236F1C00E465EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA051D7E1D236F1C00E465EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA051D811D236F1C00E465EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA051D821D236F1C00E465EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA051D841D236F1C00E465EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5CD7948073DCE9E1A46BE10 /* Pods-RQCode0629.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/Tony/Music/Hello/RQCode0629/RQCode0629/PrefixHeader.pch;
+				INFOPLIST_FILE = RQCode0629/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrzzx.RQCode0629;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA051D851D236F1C00E465EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AB1356F7489C4A0F93EAEA0 /* Pods-RQCode0629.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/Tony/Music/Hello/RQCode0629/RQCode0629/PrefixHeader.pch;
+				INFOPLIST_FILE = RQCode0629/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrzzx.RQCode0629;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA051D671D236F1C00E465EC /* Build configuration list for PBXProject "RQCode0629" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA051D811D236F1C00E465EC /* Debug */,
+				EA051D821D236F1C00E465EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA051D831D236F1C00E465EC /* Build configuration list for PBXNativeTarget "RQCode0629" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA051D841D236F1C00E465EC /* Debug */,
+				EA051D851D236F1C00E465EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA051D641D236F1C00E465EC /* Project object */;
+}
